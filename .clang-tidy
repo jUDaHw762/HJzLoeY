@@ -1,0 +1,25 @@
+Checks:
+  - -*
+  - bugprone-suspicious-memset-usage
+  - bugprone-unchecked-optional-access
+  - bugprone-undefined-memory-manipulation
+  - bugprone-unused-raii
+  - bugprone-use-after-move
+  - google-readability-casting
+  - misc-misleading-identifier
+  - misc-misplaced-const
+  - misc-non-copyable-objects
+  - misc-throw-by-value-catch-by-reference
+  - misc-redundant-expression
+  - misc-unconventional-assign-operator
+  - misc-static-assert
+  - modernize-*
+  - -modernize-avoid-c-arrays
+  - -modernize-use-nodiscard
+  - -modernize-use-trailing-return-type
+  - performance-unnecessary-copy-initialization
+
+WarningsAsErrors: "*"
+UseColor: true
+HeaderFilterRegex: ".*"
+ExcludeHeaderFilterRegex: ".*/(parser\\.tab|location)\\.hh"
