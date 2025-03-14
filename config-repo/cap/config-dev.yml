@@ -1,0 +1,6 @@
+upload:
+  path: hello im dev update 9
+
+db:
+  jdbc:
+    url: jdbc:dev:1234
